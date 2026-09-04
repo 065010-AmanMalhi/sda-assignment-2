@@ -23,6 +23,3 @@
 4. For a visible Kafka consumer terminal, run:
    `kafka-console-consumer --bootstrap-server localhost:9092 --topic nse-equity-ticks --from-beginning --property print.key=true --property key.separator=" | "`
 
-The producer prints each message's symbol, close, percentage change, partition and offset, which is useful for the required terminal screenshot.
-
-The sample includes deliberately elevated percentage moves for demonstration of the circuit-monitoring use case. It is simulated data, not live market data.
